@@ -4,10 +4,8 @@ using KingOfBurgers.Core;
 
 namespace KingOfBurgers.App.Views;
 
-/// <summary>
-/// Временная заглушка для верстки и проверки XAML (Роль C).
-/// Будет заменена на настоящую GameViewModel от Роли B.
-/// </summary>
+/// Временная заглушка
+/// Будет заменена на настоящий ?файл?
 public class PreviewGameViewModel
 {
     public string StatusText { get; set; } = "Ход: Игрок 1";
@@ -21,8 +19,8 @@ public class PreviewGameViewModel
     public bool PlayerOneReachedTarget { get; set; } = false;
     public bool PlayerTwoReachedTarget { get; set; } = false;
 
-    public bool IsMenuVisible { get; set; } = false;
-    public bool IsGameVisible { get; set; } = true;
+    public bool IsMenuVisible { get; set; } = true; 
+    public bool IsGameVisible { get; set; } = false;
     public bool IsVictoryVisible { get; set; } = false;
     public string WinnerText { get; set; } = "Победил Игрок 1!";
 
