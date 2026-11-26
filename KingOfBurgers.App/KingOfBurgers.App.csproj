@@ -1,6 +1,10 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
+    <PackageReference Include="ReactiveUI.WPF" Version="20.4.1" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\KingOfBurgers.Core\KingOfBurgers.Core.csproj" />
   </ItemGroup>
 
