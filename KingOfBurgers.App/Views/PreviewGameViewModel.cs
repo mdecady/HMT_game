@@ -19,8 +19,8 @@ public class PreviewGameViewModel
     public bool PlayerOneReachedTarget { get; set; } = false;
     public bool PlayerTwoReachedTarget { get; set; } = false;
 
-    public bool IsMenuVisible { get; set; } = true; 
-    public bool IsGameVisible { get; set; } = false;
+    public bool IsMenuVisible { get; set; } = false; 
+    public bool IsGameVisible { get; set; } = true;
     public bool IsVictoryVisible { get; set; } = false;
     public string WinnerText { get; set; } = "Победил Игрок 1!";
 
